@@ -1,0 +1,58 @@
+
+  input[type=text], input[type=password] , input[type=email]{
+    width: 90%;
+    padding: 18px;
+    margin: 5px 0 20px 0; 
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 3px;
+    font-weight: normal;
+    font-size: medium;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+   
+  }
+  hr {
+    border: 1px solid #f1f1f1;	
+    margin-bottom: 25px;
+  }
+  button.btn-block {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-weight: bold;
+    font-size: medium;
+  }
+  button:hover {
+    opacity:1;
+    background-color: orangered;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+
+  .model {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 20%; /* Could be more or less, depending on screen size */
+  }
+
+  .alert-danger{
+      color: red;
+  }
+
+  
+  
+  

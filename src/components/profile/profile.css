@@ -1,0 +1,20 @@
+.butn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 8%;
+    opacity: 0.9;
+    font-weight: bold;
+    font-size: medium;
+ float: right;
+
+
+  }
+  .butn:hover {
+    opacity:1;
+    background-color: orangered;
+  }
